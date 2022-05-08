@@ -2,16 +2,20 @@ This program produces all possible coding sequences from a given amino acid sequ
 In addition, it calculates its moll mass, as well as GC content and hamming distance between all created DNA sequence. 
 
 Example of needed amino_acids.txt file:
+
 SPW
 
 Output (codons.txt file):
+
 Mass moll of given peptide sequence: 424.4483
 
 All possible sequences based on given amino acids: 
 
 1) AGTCCATGG
 {'A': 2, 'C': 2, 'T': 2, 'G': 3}
+
 GC content in this sequence: 0.56
+
 Complement sequence: TCAGGTACC
 ...
 
